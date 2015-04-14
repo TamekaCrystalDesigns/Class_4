@@ -1,0 +1,106 @@
+
+html {
+	background: url('bg.jpg') no-repeat top center #000;
+	color: #fff;
+	font-family: sans-serif;
+	line-height: 150%;
+}
+html, body {
+	margin: 0 auto;
+}
+#topBar {
+	position: absolute;
+	background: #000;
+	height: 30px;
+	width: 100%;
+}
+#wrap{
+	background: url('tint_bg.png');
+	max-width: 950px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	z-index: 1000;
+}
+#header {
+	width: 100%;
+}
+#logo {
+	background: #000;
+	border: solid 1px #ac995f;
+	/*border-left: solid 1px #ac995f;
+	border-right: outset 1px #ac995f;*/
+	color: #DCDCDC;
+	margin-left: 2%;
+	max-width: 200px;
+	padding-top: 4%;
+	width: 100%;
+}
+h1 {
+	font-size: 46px;
+    font-weight: lighter;
+	margin: 0 auto;
+	padding-bottom: 2%;
+	padding-left: 10%;
+	padding-top: 2%;
+}
+#logo h1 span {
+	font-size: 36px;
+}
+h4 {
+	background: #ac995f;
+	border-bottom: solid #000 10px;
+	color: #000;
+	padding-bottom: 2%;
+	padding-left: 10%;
+	padding-top: 2%;
+}
+nav {
+	margin-bottom: 15%;
+	margin-top: 15%;
+	overflow: hidden;
+	width: 100%;
+}
+ul {
+	width: 100%;
+}
+li {
+	background: #000;
+	display: block;
+	float: left;
+	font-size: 24px;
+	line-height: 150%;
+	list-style: none;
+	margin-bottom: 2%;
+	margin-right: 5%;
+	padding: 7%;
+	width: 12.5%;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+#projects:hover {
+	border-bottom: solid 1px #ac995f;
+	color:  #ac995f;
+}
+#bio:hover {
+	background: url("tameka_profile_tint_5_bw.jpg") #000 no-repeat center;
+	border-bottom: solid 1px #ac995f;
+	color: #DCDCDC;
+}
+#skills:hover {
+	border-bottom: solid 1px #ac995f;
+	color: #ac995f;
+}
+#footer {
+	bottom: 0px;
+	background: #000;
+	text-align: center;
+	width: 100%;
+	margin: 0px auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	position: fixed;
+}

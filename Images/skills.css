@@ -1,0 +1,147 @@
+
+html {
+	background: url('ariel_sky_nyc_bg.jpg') no-repeat top center #000;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 150%;
+}
+html, body {
+	margin: 0 auto;
+}
+.clear {
+	clear: both;
+}
+#topBar {
+	position: absolute;
+	background: #000;
+	height: 30px;
+	width: 100%;
+}
+#wrap{
+	background: url('tint_bg.png');
+	max-width: 950px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	z-index: 1000;
+}
+#header {
+	width: 100%;
+}
+#logo {
+	background: #000;
+	border: solid 1px #ac995f;
+	color: #DCDCDC;
+	margin-left: 2%;
+	max-width: 200px;
+	padding-top: 4%;
+	width: 100%;
+}
+h1 {
+	font-size: 46px;
+    font-weight: lighter;
+	margin: 0 auto;
+	padding-bottom: 2%;
+	padding-left: 10%;
+	padding-top: 2%;
+}
+#logo h1 span {
+	font-size: 36px;
+}
+#contentWrap #content h2 {
+	padding: 2% 5%;
+}
+h4 {
+	background: #ac995f;
+	border-bottom: solid #000 10px;
+	color: #000;
+	padding-bottom: 2%;
+	padding-left: 10%;
+	padding-top: 2%;
+}
+nav {
+	margin-bottom: 2%;
+	margin-top: 3%;
+	overflow: hidden;
+	width: 100%;
+}
+ul {
+	width: 100%;
+}
+li {
+	background: #000;
+	display: block;
+	float: left;
+	font-size: 24px;
+	line-height: 150%;
+	list-style: none;
+	margin-bottom: 2%;
+	margin-right: 5%;
+	padding: 7%;
+	width: 12.5%;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+#skills {
+	border-bottom: inset 1px #fdfdfd;
+	color:  #ac995f;
+}
+#projects:hover {
+	border-bottom: solid 1px #ac995f;
+	color:  #ac995f;
+}
+#bio:hover {
+	border-bottom: solid 1px #ac995f;
+	color:  #ac995f;
+}
+#skills:hover {
+	border-bottom: solid 1px #ac995f;
+	color: #fdfdfd;
+}
+#contentWrap {
+	background: #111111;
+	overflow: hidden;
+	padding-bottom: 100px;
+	padding-top: 50px;
+	width: 100%;
+}
+#contentWrap #content {
+	margin:0 auto;
+	max-width: 950px;
+	overflow: hidden;
+	width: 100%;
+}
+#contentWrap #content .col {
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: justify;
+	float: left;
+	width: 46%;
+}
+#contentWrap #content .col a {
+	color: #ac995f;
+	text-decoration: underline;
+}
+#contentWrap #content .col img {
+	float: left;
+	padding-right: 3%;
+	width: 48%;
+}
+#contentWrap #content p {
+	color:  #DCDCDC;
+	margin: 15px auto;
+	width: 100%;
+}
+
+#footer {
+	background: #000;
+	text-align: center;
+	width: 100%;
+	margin: 0px auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
